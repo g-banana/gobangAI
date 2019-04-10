@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="QtDesign" description="pyqt5GUI的界面构建工具" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\同学少年\AppData\Local\Programs\Python\Python36\Lib\site-packages\pyqt5_tools\designer.exe" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pyqt5_tools" />
+    </exec>
+  </tool>
+  <tool name="PyUIC" description="用来将 Qt界面 转换成 py代码" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\同学少年\AppData\Local\Programs\Python\Python36\python.exe" />
+      <option name="PARAMETERS" value="-m PyQt5.uic.pyuic  $FileName$ -o $FileNameWithoutExtension$.py" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Programs/Python/Python36" />
+    </exec>
+  </tool>
+</toolSet>
