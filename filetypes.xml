@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="Pipfile" type="PLAIN_TEXT" />
       <mapping pattern=".pylintrc" type="PLAIN_TEXT" />
+      <mapping pattern="pyechart.py" type="PLAIN_TEXT" />
       <mapping pattern="py" type="YAML" />
       <mapping ext="pkl" type="YouTrack" />
     </extensionMap>
