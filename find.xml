@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" />
-    <option name="defaultScopeName" />
+    <option name="customScope" value="VCS Scopes" />
+    <option name="defaultScopeName" value="VCS Scopes" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" />
+    <option name="SEARCH_SCOPE" value="VCS Scopes" />
   </component>
 </application>
